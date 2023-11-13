@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div id="display"></div>
+        <div class="buttons">
+          <button onclick="calc.passNum(7)">7</button>
+          <button onclick="calc.passNum(8)">8</button>
+          <button onclick="calc.passNum(9)">9</button>
+          <button id="divide" class="opp" onclick="calc.passMethod('divide')">/</button>
+          <button onclick="calc.passNum(4)">4</button>
+          <button onclick="calc.passNum(5)">5</button>
+          <button onclick="calc.passNum(6)">6</button>
+          <button id="multiply" class="opp" onclick="calc.passMethod('multiply')">X</button> 
+          <button onclick="calc.passNum(1)">1</button>
+          <button onclick="calc.passNum(2)">2</button>
+          <button onclick="calc.passNum(3)">3</button>
+          <button id="add" class="opp" onclick="calc.passMethod('add')">+</button>    
+          <button onclick="calc.passNum('decimal')">.</button>
+          <button onclick="calc.passNum(0)">0</button>
+          <button onclick="calc.clearDisplay()">CE</button>
+          <button id="subtract" class="opp" onclick="calc.passMethod('subtract')">-</button>
+          <button onclick="calc.doMath()">Equals</button>
+        </div>
+      </div>
+      
+    <script src="/index.js"></script>      
+</body>
+</html>
